@@ -33,8 +33,8 @@ namespace Moon_Asg1_classes
         /// Constructs a Student object.
         /// </summary>
         /// <param name="studentID">ID of student. Current format is first letter of first name 
-        ///   and first four letters of last name. Has a default value of empty string.</param>
-        public Student(string studentID = "")
+        ///   and first four letters of last name.</param>
+        public Student(string studentID)
         {
             IdCount++;
             Id = IdCount;
